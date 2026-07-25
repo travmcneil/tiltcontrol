@@ -1,0 +1,2 @@
+- [x] Apply Compose BOM to test and debug configurations in `app/build.gradle.kts`
+- [x] Verify build completion

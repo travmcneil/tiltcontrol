@@ -1,0 +1,4 @@
+- [x] Consolidate Room versions in `libs.versions.toml`
+- [x] Update `app/build.gradle.kts` to use unified Room dependencies
+- [x] Verify fix with `./gradlew :app:kspDebugKotlin`
+- [x] Final verification with full build

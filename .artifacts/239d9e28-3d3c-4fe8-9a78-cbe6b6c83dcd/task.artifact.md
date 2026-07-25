@@ -1,0 +1,4 @@
+- [x] Add KSP to `libs.versions.toml`
+- [x] Register KSP plugin in root `build.gradle.kts`
+- [x] Apply KSP plugin in `app/build.gradle.kts`
+- [x] Sync Gradle and verify build

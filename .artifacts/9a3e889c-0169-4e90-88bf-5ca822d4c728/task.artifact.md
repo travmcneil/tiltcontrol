@@ -1,0 +1,4 @@
+- [x] Update Compose BOM version in `libs.versions.toml`
+- [x] Add Compose BOM to `androidTestImplementation` and `debugImplementation` in `app/build.gradle.kts`
+- [x] Verify Gradle sync
+- [x] Verify build

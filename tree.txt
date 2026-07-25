@@ -1,0 +1,46 @@
+Folder PATH listing
+Volume serial number is 000000CD FC84:7C67
+C:.
++---.gradle
+¦   +---9.5.0
+¦   ¦   +---checksums
+¦   ¦   +---executionHistory
+¦   ¦   +---expanded
+¦   ¦   +---fileChanges
+¦   ¦   +---fileHashes
+¦   ¦   +---vcsMetadata
+¦   +---buildOutputCleanup
+¦   +---vcs-1
++---.idea
++---app
+¦   +---src
+¦       +---androidTest
+¦       ¦   +---java
+¦       ¦       +---com
+¦       ¦           +---travis
+¦       ¦               +---tiltcontrol
+¦       +---main
+¦       ¦   +---java
+¦       ¦   ¦   +---com
+¦       ¦   ¦       +---travis
+¦       ¦   ¦           +---tiltcontrol
+¦       ¦   ¦               +---ui
+¦       ¦   ¦                   +---theme
+¦       ¦   +---keepRules
+¦       ¦   +---res
+¦       ¦       +---drawable
+¦       ¦       +---mipmap-anydpi-v26
+¦       ¦       +---mipmap-hdpi
+¦       ¦       +---mipmap-mdpi
+¦       ¦       +---mipmap-xhdpi
+¦       ¦       +---mipmap-xxhdpi
+¦       ¦       +---mipmap-xxxhdpi
+¦       ¦       +---values
+¦       ¦       +---xml
+¦       +---test
+¦           +---java
+¦               +---com
+¦                   +---travis
+¦                       +---tiltcontrol
++---gradle
+    +---wrapper
