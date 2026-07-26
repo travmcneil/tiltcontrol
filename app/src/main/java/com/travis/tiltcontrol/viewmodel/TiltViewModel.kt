@@ -86,6 +86,17 @@ class TiltViewModel(application: Application) : AndroidViewModel(application) {
         }
     }
 
+    fun adjustThreshold(delta: Float) {
+        val machine = _selectedMachine.value ?: return
+        val newThreshold = (machine.tiltThreshold + delta).coerceIn(0.5f, 10f)
+
+        viewModelScope.launch {
+            val updated = machine.copy(tiltThreshold = newThreshold)
+            machineDao.updateMachine(updated)
+            _selectedMachine.value = updated
+        }
+    }
+
     override fun onCleared() {
         super.onCleared()
         sensorManager.stop()
